@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "638855490",
+    "project_id": "saaligram-71bf5",
+    "storage_bucket": "saaligram-71bf5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:638855490:android:7de9574a37da42a165c0db",
+        "android_client_info": {
+          "package_name": "com.hostbala.saaligram"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "638855490-kqcs60fdgg0682b5uivto7nmfk3n8dfp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.hostbala.saaligram",
+            "certificate_hash": "3251dc254f0a77415ffad8523e7503b023b202e1"
+          }
+        },
+        {
+          "client_id": "638855490-ul669nqubajor3he1qniml9oheg6gfod.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCyLPCZRKf-uYDWz4PkMtz5CHdB9kY4D94"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "638855490-ul669nqubajor3he1qniml9oheg6gfod.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
