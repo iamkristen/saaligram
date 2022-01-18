@@ -196,17 +196,20 @@ class _ProfileScreenState extends State<ProfileScreen> {
                             const SizedBox(
                               width: 10,
                             ),
-                            Expanded(
-                                child: CustomButton(
-                                    onPressed: () {
-                                      AuthMethods().signOut();
-                                      Navigator.pushReplacement(
-                                          context,
-                                          MaterialPageRoute(
-                                              builder: (context) =>
-                                                  const LoginScreen()));
-                                    },
-                                    child: const Text("Sign Out"))),
+                            (widget.uid ==
+                                    FirebaseAuth.instance.currentUser!.uid)
+                                ? Expanded(
+                                    child: CustomButton(
+                                        onPressed: () {
+                                          AuthMethods().signOut();
+                                          Navigator.pushReplacement(
+                                              context,
+                                              MaterialPageRoute(
+                                                  builder: (context) =>
+                                                      const LoginScreen()));
+                                        },
+                                        child: const Text("Sign Out")))
+                                : Container(),
                             const SizedBox(
                               width: 10,
                             ),
